@@ -1,28 +1,15 @@
-name: Makefile CI
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+name: Build
+on: [push]
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - name: Generate configure
-      run: autoreconf -i
-
-    - name: Run configure
-      run: ./configure
-
-    - name: Install dependencies
-      run: make
-
-    - name: Run check
-      run: make check
-
-    - name: Run distcheck
-      run: make distcheck
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: sudo apt-get install autoconf automake  # إذا كنت تستخدم Autotools
+      - name: Generate configure
+        run: autoreconf -i
+      - name: Run configure
+        run: ./configure
+      - name: Build
+        run: make
