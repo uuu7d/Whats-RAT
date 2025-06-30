@@ -1,4 +1,37 @@
+‎/* ====== النصوص العامة ====== */
+"APP_TITLE" = "Devland Tweaks";
+"OK_BUTTON" = "موافق";
+"CANCEL_BUTTON" = "إلغاء";
+"SAVE_BUTTON" = "حفظ";
+"ERROR_TITLE" = "خطأ";
 
-"welcome_message" = "مرحبًا بك في Dev-land!";
-"about_message" = "تم تصميم هذا التويك لإضافة مميزات رائعة إلى WhatsApp.";
-"dev_credit" = "تصميم: Ee3tz \nللتواصل: @Ee3tz \nدعاء لك ولوالديك بالجنة";
+‎/* ====== واجهة البحث ====== */
+"SEARCH_TITLE" = "نتيجة البحث";
+"SEARCH_NAME_LABEL" = "الاسم: %@";
+"SEARCH_CARRIER_LABEL" = "الشركة: %@";
+"SEARCH_UNKNOWN" = "غير معروف";
+"SEARCH_SAVE_CONTACT" = "حفظ في الجهات";
+
+‎/* ====== إعدادات الموقع ====== */
+"LOCATION_TITLE" = "تزييف الموقع";
+"LOCATION_ENABLED" = "مفعل";
+"LOCATION_MAP_BUTTON" = "تحديد على الخريطة";
+"LOCATION_CONFIRM" = "تأكيد الموقع";
+"LOCATION_DEFAULT_NAME" = "الموقع المزيف";
+
+‎/* ====== إعدادات المحادثات ====== */
+"CHATS_TITLE" = "إدارة المحادثات";
+"CHATS_HIDE_ENABLED" = "إخفاء المحادثات";
+"CHATS_HIDE_GESTURE" = "اضغط مرتين لإخفاء/إظهار";
+
+‎/* ====== إعدادات المظهر ====== */
+"APPEARANCE_TITLE" = "المظهر";
+"APPEARANCE_FONT" = "اختيار الخط";
+"FONT_ARIAL" = "عريض";
+"FONT_DUBAI" = "دبي";
+"FONT_GEEZA" = "جيزا";
+
+‎/* ====== رسائل الأخطاء ====== */
+"ERROR_NO_NUMBER" = "رقم الهاتف غير متوفر";
+"ERROR_SAVE_FAILED" = "فشل حفظ الجهة";
+"ERROR_CONNECTION" = "فشل الاتصال بالخادم";
